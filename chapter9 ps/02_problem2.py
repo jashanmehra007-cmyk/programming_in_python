@@ -40,6 +40,6 @@ def game():
         with open("hiscore.txt", "w") as f:
             f.write(str(score))
 
-    return score
+    return score 
 
 game()
