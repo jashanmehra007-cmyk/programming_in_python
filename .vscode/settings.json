@@ -1,5 +1,6 @@
 {
     "terminal.integrated.focusAfterRun": "none",
     "terminal.integrated.suggest.runOnEnter": "always",
-    "python.REPL.enableREPLSmartSend": false
+    "python.REPL.enableREPLSmartSend": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
