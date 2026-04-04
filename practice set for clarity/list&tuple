@@ -1,0 +1,22 @@
+# l = ["Python","Java","Picharm","Excel","Statistics"]
+# print(l)
+
+# # l = [5,6,6,8,3,0]
+# # print(l[0])
+# # print(l[-1]) #prints the last element in a list.
+
+# l = ["Rice","Paneer","Besan chilla","Soya chunks","Capsicum"]
+# l.append("Curd")
+# print(l[1:7])
+
+# l = ["Dasuya","Hoshairpur","Jalandhar","Chandigarh","Kapurthala"]
+# l[1] = "Bhogpur"
+# print(l)
+
+# l = ["Red", "Yellow", "White", "Pink", "Brown"]
+# l[1] = "Black"
+# print(l)
+
+l = ['pen', 'pencil', 'eraser', 'sharpener']
+l.pop(2)
+print(l[1:7])

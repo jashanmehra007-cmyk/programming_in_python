@@ -12,6 +12,10 @@
 # print(w[0:3])
 # print(w[8:11])
 
-w = "Programming"
-print(w[:3])
-print(w[-3:])
+# w = "Programming"
+# print(w[:3])
+# print(w[-4:])
+
+m = 'J'
+print(m)
+print(len(m))
