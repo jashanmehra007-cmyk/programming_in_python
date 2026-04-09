@@ -1,3 +1,5 @@
+# Lists
+
 # l = ["Python","Java","Picharm","Excel","Statistics"]
 # print(l)
 
@@ -17,6 +19,78 @@
 # l[1] = "Black"
 # print(l)
 
-l = ['pen', 'pencil', 'eraser', 'sharpener']
-l.pop(2)
-print(l[1:7])
+# l = ['pen', 'pencil', 'eraser', 'sharpener']
+# l.pop(2)
+# print(l[1:7])
+
+# l= ['a', 'b', 'c', 'd', 'e', 'a']
+# count_a = l.count('a')
+# print("Count of a:", count_a)
+# print("List:", l)
+
+# l = ['apple','banana','mango','litchi','pineapple','gauva']
+# index = l.index('mango')
+# print("index 0f mango:" ,index)
+
+# l = [8,4,3,5,6,9,0,1]
+# l.sort()
+# print(l)
+
+# l = [0, 1, 3, 4, 5, 6, 8, 9]
+# l.reverse()
+# print(l)
+
+# l = [0, 1, 3, 4, 5, 6, 8, 9]
+# print(l[2:5])
+
+# l = [3, 4, 5, 6, 8, 9]
+# total = sum(l)
+# print(total)
+
+# numbers = [44,92,93,37,58,59,93]
+# max_num = max(numbers)
+# min_num = min(numbers)
+
+# print("Maximum number:", max_num)
+# print("Minimum number:", min_num)
+
+# numbers = [9,6,7,5,4,2,3,1,8,0]
+# print("Even Number:")
+# for l in numbers:
+#     if l % 2 == 0:
+#         print(l)
+
+N = [9,6,7]
+L = [8,4,3]
+combined_list = N+L
+combined_list.sort()
+print(combined_list)
+
+# Tuples
+
+# t = ('april', 'may', 'june', 'july', 'august')
+# print(t)
+
+# t = ('dog', 'cat', 'cow', 'horse')
+# print(t[0],t[2])
+
+# numbers = (9,6,7,5,4,0)
+# print(numbers[0:4])
+
+# t =('riya', 'manisha', 'simran', 'eliza', 'harry')
+# length= len(t)
+# print(length)
+
+# t = (101, 'Rahul', 88)   #unpacking tuple into variable
+
+# a,b,c =t
+# print(a)
+# print(b)
+# print(c)
+
+# t = (12,14,18,6)
+# l = list(t)
+# l.append(23)
+# t =tuple(l)
+# print(t)
+
