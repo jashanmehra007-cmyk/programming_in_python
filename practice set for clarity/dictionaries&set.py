@@ -1,5 +1,5 @@
-# Dictionary = {'name':'jashan','age':22}
-# Set = {'jashan', 22, 'python'}
+Dictionary = {'name':'jashan','age':22}
+Set = {'jashan', 22, 'python'}
 
 # Dictionary = {'name':'jashan','age':22, 'course': 'python'}
 # Set = {10, 20, 30, 20, 10}
