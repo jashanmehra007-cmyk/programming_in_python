@@ -60,11 +60,11 @@
 #     if l % 2 == 0:
 #         print(l)
 
-N = [9,6,7]
-L = [8,4,3]
-combined_list = N+L
-combined_list.sort()
-print(combined_list)
+# N = [9,6,7]
+# L = [8,4,3]
+# combined_list = N+L
+# combined_list.sort()
+# print(combined_list)
 
 # Tuples
 
@@ -94,3 +94,4 @@ print(combined_list)
 # t =tuple(l)
 # print(t)
 
+# 23 pending
