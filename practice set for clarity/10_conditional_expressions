@@ -1,0 +1,71 @@
+# Write a program to find the greatest of four numbers entered by the user.[web:2] how can i solve it
+# a = int(input("enter a 1st number:"))
+# b = int(input("enter a 2nd number:"))
+# c = int(input("enter a 3rd number:"))
+# d = int(input("enter a 4th number:"))
+
+# if(a>=b and a>=c and a>=d):
+#     print(a)
+# elif(b>=a and b>=c and b>=d):
+#     print(b)    
+# elif(c>=a and c>=b and c>=d):
+#     print(c)
+# else:
+#     print(d)
+
+# Write a program to check whether a student has passed or failed, 
+# assuming total marks are 100 in each subject and at least 33 percent is required 
+# # in each subject and 40 percent overall.
+
+# num_subjects = int(input("Enter number of subjects: "))
+# marks = []
+# for i in range(num_subjects):
+#     mark = int(input(f"Enter marks for subject {i+1} (0-100): "))
+#     if mark < 0 or mark > 100:
+#         print("Invalid mark! Assuming 0. ")
+#         mark = 0
+#     marks.append(mark) 
+
+# total = sum(marks)
+# average = total/num_subjects
+
+# # Check each subject >=33
+# all_pass = all(m>=33 for m in marks)
+
+# if all_pass and average >= 40:
+#     print("Student has passed !")
+# else:
+#     if not all_pass:
+#         print("Failed due to <33% in one or more subjects.")    
+#     if average < 40:
+#         print("Failed due to overall average <40%. ")    
+#     print("Student has failed! ")
+
+# Write a Python program that asks the user for 3 subject marks and then prints:
+# the total marks
+# the average marks
+
+# num_subjects = int(input("Enter number of subjects: "))
+# total_marks = 0
+# for i in range(num_subjects):
+#     mark = float(input(f"Enter marks for subjects {i+1} "))
+#     total_marks += mark
+
+# average = total_marks/num_subjects
+
+# print("Total marks:", total_marks)
+# print("Average marks:", average)
+# Python program to calculate total and average of 3 subject marks
+
+# Get input from user
+mark1 = float(input("Enter marks for subject 1: "))
+mark2 = float(input("Enter marks for subject 2: "))
+mark3 = float(input("Enter marks for subject 3: "))
+
+# Calculate total and average
+total = mark1 + mark2 + mark3
+average = total / 3
+
+# Print results
+print("Total marks:", total)
+print("Average marks:", average)

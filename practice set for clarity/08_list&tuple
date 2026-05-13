@@ -1,7 +1,7 @@
 # Lists
 
-# l = ["Python","Java","Picharm","Excel","Statistics"]
-# print(l)
+l = ["Python","Java","Picharm","Excel","Statistics"]
+print(l)
 
 # # l = [5,6,6,8,3,0]
 # # print(l[0])
@@ -68,8 +68,8 @@
 
 # Tuples
 
-# t = ('april', 'may', 'june', 'july', 'august')
-# print(t)
+t = ('april', 'may', 'june', 'july', 'august')
+print(t)
 
 # t = ('dog', 'cat', 'cow', 'horse')
 # print(t[0],t[2])
